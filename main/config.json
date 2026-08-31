@@ -6,8 +6,8 @@
   "minAppVersion": "1.0.0",
   "forceUpdate": false,
   "api": {
-    "baseUrl": "https://your-pterodactyl-domain.com/api",
-    "wsUrl": "wss://your-pterodactyl-domain.com",
+    "baseUrl": "http://papi.queen-official.com:5649",
+    "wsUrl": "wss://papi.queen-official.com:5649",
     "timeoutSeconds": 30
   },
   "features": {
@@ -41,8 +41,8 @@
     "card": "#151515"
   },
   "links": {
-    "terms": "https://yourdomain.com/terms",
-    "privacy": "https://yourdomain.com/privacy",
-    "support": "https://yourdomain.com/support"
+    "terms": "http://papi.queen-official.com:5649",
+    "privacy": "http://papi.queen-official.com:5649",
+    "support": "http://papi.queen-official.com:5649"
   }
 }
