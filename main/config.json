@@ -20,11 +20,11 @@
   "limits": {
     "maxCaptionLength": 2200,
     "maxBioLength": 150,
-    "maxMediaPerPost": 5000,
-    "maxImageSizeMB": 5000,
-    "maxVideoSizeMB": 5000,
+    "maxMediaPerPost": 99999999,
+    "maxImageSizeMB": 99999999,
+    "maxVideoSizeMB": 99999999,
     "maxVideoDurationSeconds": 99999999,
-    "storyExpiryHours": 24
+    "storyExpiryHours": 48
   },
   "pagination": {
     "feed": 15,
