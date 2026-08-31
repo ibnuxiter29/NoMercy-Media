@@ -1,0 +1,48 @@
+{
+  "appName": "NoMercyGram",
+  "appVersion": "1.0.0",
+  "maintenance": false,
+  "maintenanceMessage": "Server sedang dalam perawatan. Silakan coba lagi nanti.",
+  "minAppVersion": "1.0.0",
+  "forceUpdate": false,
+  "api": {
+    "baseUrl": "https://your-pterodactyl-domain.com/api",
+    "wsUrl": "wss://your-pterodactyl-domain.com",
+    "timeoutSeconds": 30
+  },
+  "features": {
+    "stories": true,
+    "reels": true,
+    "directMessage": true,
+    "live": false,
+    "verifiedBadge": true
+  },
+  "limits": {
+    "maxCaptionLength": 2200,
+    "maxBioLength": 150,
+    "maxMediaPerPost": 5000,
+    "maxImageSizeMB": 5000,
+    "maxVideoSizeMB": 5000,
+    "maxVideoDurationSeconds": 99999999,
+    "storyExpiryHours": 24
+  },
+  "pagination": {
+    "feed": 15,
+    "comments": 20,
+    "notifications": 25,
+    "messages": 30,
+    "search": 20
+  },
+  "theme": {
+    "primaryRed": "#E50914",
+    "darkRed": "#B0000B",
+    "background": "#050505",
+    "surface": "#101010",
+    "card": "#151515"
+  },
+  "links": {
+    "terms": "https://yourdomain.com/terms",
+    "privacy": "https://yourdomain.com/privacy",
+    "support": "https://yourdomain.com/support"
+  }
+}
